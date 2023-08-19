@@ -1,0 +1,79 @@
+{
+    "reference": {
+      "temperature": 70,
+      "humidity": 45,
+      "monoxide": 6
+    },
+    "sensors": [
+      {
+        "type": "thermometer",
+        "name": "temp-1",
+        "readings": [
+          {"timestamp": "2007-04-05T22:00", "value": 72.4},
+          {"timestamp": "2007-04-05T22:01", "value": 76.0},
+          {"timestamp": "2007-04-05T22:02", "value": 79.1},
+          {"timestamp": "2007-04-05T22:03", "value": 75.6},
+          {"timestamp": "2007-04-05T22:04", "value": 71.2},
+          {"timestamp": "2007-04-05T22:05", "value": 71.4},
+          {"timestamp": "2007-04-05T22:06", "value": 69.2},
+          {"timestamp": "2007-04-05T22:07", "value": 65.2},
+          {"timestamp": "2007-04-05T22:08", "value": 62.8},
+          {"timestamp": "2007-04-05T22:09", "value": 61.4},
+          {"timestamp": "2007-04-05T22:10", "value": 64.0},
+          {"timestamp": "2007-04-05T22:11", "value": 67.5},
+          {"timestamp": "2007-04-05T22:12", "value": 69.4}
+        ]
+      },
+      {
+        "type": "thermometer",
+        "name": "temp-2",
+        "readings": [
+          {"timestamp": "2007-04-05T22:01", "value": 69.5},
+          {"timestamp": "2007-04-05T22:02", "value": 70.1},
+          {"timestamp": "2007-04-05T22:03", "value": 71.3},
+          {"timestamp": "2007-04-05T22:04", "value": 71.5},
+          {"timestamp": "2007-04-05T22:05", "value": 69.8}
+        ]
+      },
+      {
+        "type": "humidity",
+        "name": "hum-1",
+        "readings": [
+          {"timestamp": "2007-04-05T22:04", "value": 45.2},
+          {"timestamp": "2007-04-05T22:05", "value": 45.3},
+          {"timestamp": "2007-04-05T22:06", "value": 45.1}
+        ]
+      },
+      {
+        "type": "humidity",
+        "name": "hum-2",
+        "readings": [
+          {"timestamp": "2007-04-05T22:04", "value": 44.4},
+          {"timestamp": "2007-04-05T22:05", "value": 43.9},
+          {"timestamp": "2007-04-05T22:06", "value": 44.9},
+          {"timestamp": "2007-04-05T22:07", "value": 43.8},
+          {"timestamp": "2007-04-05T22:08", "value": 42.1}
+        ]
+      },
+      {
+        "type": "monoxide",
+        "name": "mon-1",
+        "readings": [
+          {"timestamp": "2007-04-05T22:04", "value": 5},
+          {"timestamp": "2007-04-05T22:05", "value": 7},
+          {"timestamp": "2007-04-05T22:06", "value": 9}
+        ]
+      },
+      {
+        "type": "monoxide",
+        "name": "mon-2",
+        "readings": [
+          {"timestamp": "2007-04-05T22:04", "value": 2},
+          {"timestamp": "2007-04-05T22:05", "value": 4},
+          {"timestamp": "2007-04-05T22:06", "value": 10},
+          {"timestamp": "2007-04-05T22:07", "value": 8},
+          {"timestamp": "2007-04-05T22:08", "value": 6}
+        ]
+      }
+    ]
+  }
